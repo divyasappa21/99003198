@@ -8,8 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        
-      - name: Install cppcheck
-        run: sudo apt-get -y install cppcheck
-      - name: Cppcheck code
-        run: cppcheck Miniproject/Miniproject_104348/3_Implementation
+      - name: cppcheck
+        uses: deep5050/cppcheck-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN}}
+          github_username: "stepin104348"
+          github_email: "smsushma98@gmail.com"
+          commit_msg: "<optional commit message>"
