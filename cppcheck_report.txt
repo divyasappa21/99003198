@@ -1,0 +1,51 @@
+[Miniproject_104348/3_Implementation/src/evm.c:66]: (warning) scanf() without field width limits can crash with huge input data.
+[Miniproject_104348/3_Implementation/src/evm.c:87]: (warning) scanf() without field width limits can crash with huge input data.
+[Miniproject_104348/3_Implementation/test/test_evm.c:0]: (information) Too many #ifdef configurations - cppcheck only checks 12 of 31 configurations. Use --force to check all configurations.
+[Miniproject_104348/3_Implementation/test/test_evm.c:68]: (error) failed to expand 'RUN_TEST', Wrong number of parameters for macro 'RUN_TEST'.
+[Miniproject_104348/3_Implementation/test/test_evm.c:68]: (information) Skipping configuration 'RUN_TEST' since the value of 'RUN_TEST' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly.
+[Miniproject_104348/3_Implementation/test/test_evm.c:69]: (information) Skipping configuration 'RUN_TEST' since the value of 'RUN_TEST' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly.
+[Miniproject_104348/3_Implementation/test/test_evm.c:70]: (information) Skipping configuration 'RUN_TEST' since the value of 'RUN_TEST' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly.
+[Miniproject_104348/3_Implementation/test/test_evm.c:71]: (information) Skipping configuration 'RUN_TEST' since the value of 'RUN_TEST' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly.
+[Miniproject_104348/3_Implementation/test/test_evm.c:72]: (information) Skipping configuration 'RUN_TEST' since the value of 'RUN_TEST' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly.
+[Miniproject_104348/3_Implementation/unity/unity_internals.h:471]: (information) Skipping configuration 'UNITY_CLOCK_MS;UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_TIME_TYPE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly.
+[Miniproject_104348/3_Implementation/unity/unity_internals.h:472]: (information) Skipping configuration 'UNITY_CLOCK_MS;UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_TIME_TYPE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly.
+[Miniproject_104348/3_Implementation/unity/unity_internals.h:471]: (information) Skipping configuration 'UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_TIME_TYPE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly.
+[Miniproject_104348/3_Implementation/unity/unity_internals.h:472]: (information) Skipping configuration 'UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_TIME_TYPE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly.
+[Miniproject_104348/3_Implementation/unity/unity_internals.h:471]: (information) Skipping configuration 'UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME;_WIN32' since the value of 'UNITY_TIME_TYPE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly.
+[Miniproject_104348/3_Implementation/unity/unity_internals.h:472]: (information) Skipping configuration 'UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME;_WIN32' since the value of 'UNITY_TIME_TYPE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly.
+[Miniproject_104348/3_Implementation/unity/unity_internals.h:471]: (information) Skipping configuration 'UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME;__unix__' since the value of 'UNITY_TIME_TYPE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly.
+[Miniproject_104348/3_Implementation/unity/unity_internals.h:472]: (information) Skipping configuration 'UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME;__unix__' since the value of 'UNITY_TIME_TYPE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly.
+[Miniproject_104348/3_Implementation/unity/unity.c:0]: (information) Too many #ifdef configurations - cppcheck only checks 12 of 42 configurations. Use --force to check all configurations.
+[Miniproject_104348/3_Implementation/unity/unity.c:276]: (style) The scope of the variable 'nibble' can be reduced.
+[Miniproject_104348/3_Implementation/unity/unity.c:1351]: (style) The scope of the variable 'i' can be reduced.
+[Miniproject_104348/3_Implementation/unity/unity.c:1391]: (style) The scope of the variable 'i' can be reduced.
+[Miniproject_104348/3_Implementation/unity/unity.c:1515]: (style) The scope of the variable 'bytes' can be reduced.
+[Miniproject_104348/3_Implementation/unity/unity_internals.h:620] -> [Miniproject_104348/3_Implementation/unity/unity.c:1759]: (style, inconclusive) Function 'UnityFail' argument 1 names different: declaration 'message' definition 'msg'.
+[Miniproject_104348/3_Implementation/unity/unity_internals.h:621] -> [Miniproject_104348/3_Implementation/unity/unity.c:1796]: (style, inconclusive) Function 'UnityIgnore' argument 1 names different: declaration 'message' definition 'msg'.
+[Miniproject_104348/3_Implementation/unity/unity_internals.h:622] -> [Miniproject_104348/3_Implementation/unity/unity.c:1812]: (style, inconclusive) Function 'UnityMessage' argument 1 names different: declaration 'message' definition 'msg'.
+[Miniproject_104348/3_Implementation/unity/unity.c:1834]: (information) Skipping configuration 'UNITY_CLOCK_MS;UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_EXEC_TIME_START' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly.
+[Miniproject_104348/3_Implementation/unity/unity.c:1844]: (information) Skipping configuration 'UNITY_CLOCK_MS;UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_EXEC_TIME_STOP' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly.
+[Miniproject_104348/3_Implementation/unity/unity.c:558]: (information) Skipping configuration 'UNITY_CLOCK_MS;UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_PRINT_EXEC_TIME' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly.
+[Miniproject_104348/3_Implementation/unity/unity.c:1834]: (information) Skipping configuration 'UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_EXEC_TIME_START' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly.
+[Miniproject_104348/3_Implementation/unity/unity.c:1844]: (information) Skipping configuration 'UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_EXEC_TIME_STOP' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly.
+[Miniproject_104348/3_Implementation/unity/unity.c:558]: (information) Skipping configuration 'UNITY_EXEC_TIME_START;UNITY_EXEC_TIME_STOP;UNITY_PRINT_EXEC_TIME;UNITY_TIME_TYPE;UNITY_INCLUDE_EXEC_TIME' since the value of 'UNITY_PRINT_EXEC_TIME' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly.
+[Miniproject_104348/3_Implementation/unity/unity.c:685]: (style) The function 'UnityAssertBits' is never used.
+[Miniproject_104348/3_Implementation/unity/unity.c:904]: (style) The function 'UnityAssertEqualFloatArray' is never used.
+[Miniproject_104348/3_Implementation/unity/unity.c:774]: (style) The function 'UnityAssertEqualIntArray' is never used.
+[Miniproject_104348/3_Implementation/unity/unity.c:1504]: (style) The function 'UnityAssertEqualMemory' is never used.
+[Miniproject_104348/3_Implementation/unity/unity.c:1346]: (style) The function 'UnityAssertEqualString' is never used.
+[Miniproject_104348/3_Implementation/unity/unity.c:1425]: (style) The function 'UnityAssertEqualStringArray' is never used.
+[Miniproject_104348/3_Implementation/unity/unity.c:1385]: (style) The function 'UnityAssertEqualStringLen' is never used.
+[Miniproject_104348/3_Implementation/unity/unity.c:971]: (style) The function 'UnityAssertFloatSpecial' is never used.
+[Miniproject_104348/3_Implementation/unity/unity.c:952]: (style) The function 'UnityAssertFloatsWithin' is never used.
+[Miniproject_104348/3_Implementation/unity/unity.c:727]: (style) The function 'UnityAssertGreaterOrLessOrEqualNumber' is never used.
+[Miniproject_104348/3_Implementation/unity/unity.c:1226]: (style) The function 'UnityAssertNumbersArrayWithin' is never used.
+[Miniproject_104348/3_Implementation/unity/unity.c:1179]: (style) The function 'UnityAssertNumbersWithin' is never used.
+[Miniproject_104348/3_Implementation/unity/unity.c:1759]: (style) The function 'UnityFail' is never used.
+[Miniproject_104348/3_Implementation/unity/unity.c:1611]: (style) The function 'UnityFloatToPtr' is never used.
+[Miniproject_104348/3_Implementation/unity/unity.c:1796]: (style) The function 'UnityIgnore' is never used.
+[Miniproject_104348/3_Implementation/unity/unity.c:1812]: (style) The function 'UnityMessage' is never used.
+[Miniproject_104348/3_Implementation/unity/unity.c:1585]: (style) The function 'UnityNumToPtr' is never used.
+[Miniproject_104348/3_Implementation/unity/unity.c:1850]: (style) The function 'UnitySetTestFile' is never used.
+[Miniproject_104348/3_Implementation/src/evm.c:126]: (style) The function 'display' is never used.
+(information) Cppcheck cannot find all the include files (use --check-config for details)
