@@ -1,5 +1,5 @@
-[Miniproject_104348/3_Implementation/src/evm.c:66]: (warning) scanf() without field width limits can crash with huge input data.
-[Miniproject_104348/3_Implementation/src/evm.c:87]: (warning) scanf() without field width limits can crash with huge input data.
+[Miniproject_104348/3_Implementation/src/evm.c:64]: (warning) scanf() without field width limits can crash with huge input data.
+[Miniproject_104348/3_Implementation/src/evm.c:86]: (warning) scanf() without field width limits can crash with huge input data.
 [Miniproject_104348/3_Implementation/test/test_evm.c:0]: (information) Too many #ifdef configurations - cppcheck only checks 12 of 31 configurations. Use --force to check all configurations.
 [Miniproject_104348/3_Implementation/test/test_evm.c:68]: (error) failed to expand 'RUN_TEST', Wrong number of parameters for macro 'RUN_TEST'.
 [Miniproject_104348/3_Implementation/test/test_evm.c:68]: (information) Skipping configuration 'RUN_TEST' since the value of 'RUN_TEST' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly.
