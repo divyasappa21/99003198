@@ -7,6 +7,7 @@ char voterId[100][10];
 char Id[10], p_word[10];
 char Success, Failure;
 
+// to find the votes of each party and also the leading party
 void largestVotes(int bjp,int congress,int jds, int other)
 {
 	if(bjp>congress&&bjp>jds&&bjp>other)
@@ -32,6 +33,7 @@ void largestVotes(int bjp,int congress,int jds, int other)
 
 }
 
+// to check whether the voter is voting for first time or not
 bool validate_voterId(char *id)
 {
     int j=0;
@@ -54,11 +56,7 @@ bool validate_voterId(char *id)
     return true;
 }
 
-/*void correct_admin_access();
-void wrong_admin_access();
-void voting_for_first_time();
-void already_voted();*/
-
+// admin access
 void admin()
 {
     printf("                                                Welcome Admin                                       \n");
@@ -77,6 +75,7 @@ void admin()
 	}
 }
 
+// voter access
 void voter()
 {
     int log;
@@ -123,6 +122,7 @@ void voter()
     }
 }
 
+// display function to login either voter or admin
 void display()
 {
     while(1)
